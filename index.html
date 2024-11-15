@@ -1,18 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Grid with Tooltips</title>
 
-    <div>
-        <a href="./anime/index.html">Anime</a>
-        <a href="./cartoons/index.html">Cartoons</a>
-        <a href="./movies/index.html">Movies</a>
-        <a href="./series/index.html">Series</a>
-    </div>
-    
-</body>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Your custom CSS -->
+     <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <style>
+      .grid-wrapper .big,.grid-wrapper .tall,.grid-wrapper .wide{grid-column:span 2}*{margin:0;padding:0;box-sizing:border-box}body,html{background:#fff;padding:10px;font-family:sans-serif}img{max-width:100%;height:auto;vertical-align:middle;display:inline-block}.grid-wrapper>div{display:flex;flex-direction:column;justify-content:center;align-items:center}.grid-wrapper>div>img{width:100%;height:100%;object-fit:cover;border-radius:5px}.grid-wrapper{margin:5rem;display:grid;grid-gap:10px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));grid-auto-rows:auto;grid-auto-flow:dense}.grid-wrapper .big{grid-row:span 2}
+    </style>
+  </head>
+  <body>
+    <div class="grid-wrapper" id="data-output-grid"></div>
+
+    <script>
+      fetch("./collection.json")
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (collections) {
+          let collectionsWrapperAnime =
+            document.querySelector("#data-output-grid");
+          let output = "";
+          let collectionTags = "";
+
+          for (let collection of collections) {
+            output += `
+            <div>
+              <img
+                src="${collection.thumbnail}"
+                alt="${collection.title}"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="${collection.title}"
+              />
+            </div>
+          `;
+          }
+
+          collectionsWrapperAnime.innerHTML = output;
+
+          // Resetting the collectionTags variable or else it will add previous collections tags too
+          collectionTags = "";
+
+          // // Initialize Bootstrap tooltips
+          var tooltipTriggerList = [].slice.call(
+            document.querySelectorAll('[data-bs-toggle="tooltip"]')
+          );
+          tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+            new bootstrap.Tooltip(tooltipTriggerEl);
+          });
+        });
+    </script>
+    <!-- Bootstrap JS and Popper.js (needed for tooltips to work) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>

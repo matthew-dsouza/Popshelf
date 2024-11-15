@@ -1,0 +1,26 @@
+[
+    {
+        "thumbnail": "./assets/cowboy-bebop.jpeg",
+        "title": "Cowboy Bebop"
+    },
+    {
+        "thumbnail": "./assets/death-note.jpg",
+        "title": "Death Note"
+    },
+    {
+        "thumbnail": "./assets/death-parade.jpeg",
+        "title": "Death Parade"
+    },
+    {
+        "thumbnail": "./assets/gurren-lagann.jpg",
+        "title": "Gurren Lagann"
+    },
+    {
+        "thumbnail": "./assets/kurokos-basketball.jpeg",
+        "title": "Kuroko's Basketball"
+    },
+    {
+        "thumbnail": "./assets/shikimoris-not-just-a-cutie.jpeg",
+        "title": "Shikimori's Not Just a Cutie"
+    }
+]
