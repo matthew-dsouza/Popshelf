@@ -1,7 +1,55 @@
 [
     {
+        "thumbnail": "./assets/a-million-ways-to-die-in-the-west.jpg",
+        "title": "A Million Ways to Die in the West"
+    },
+    {
+        "thumbnail": "./assets/american-psycho.jpeg",
+        "title": "American Psycho"
+    },
+    {
+        "thumbnail": "./assets/american-ultra.jpeg",
+        "title": "American Ultra"
+    },
+    {
+        "thumbnail": "./assets/area-51.jpeg",
+        "title": "Area 51"
+    },
+    {
+        "thumbnail": "./assets/avengers-endgame.jpg",
+        "title": "Avengers: Endgame"
+    },
+    {
+        "thumbnail": "./assets/baazaar.jpg",
+        "title": "Baazaar"
+    },
+    {
+        "thumbnail": "./assets/captain-america-civil-war.jpg",
+        "title": "Captain America: Civil War"
+    },
+    {
+        "thumbnail": "./assets/catch-me-if-you-can.jpg",
+        "title": "Catch Me If You Can"
+    },
+    {
+        "thumbnail": "./assets/chillar-party.jpg",
+        "title": "Chillar Party"
+    },
+    {
+        "thumbnail": "./assets/chup-chup-ke.jpg",
+        "title": "Chup Chup Ke"
+    },
+    {
+        "thumbnail": "./assets/cloverfield.jpeg",
+        "title": "Cloverfield"
+    },
+    {
         "thumbnail": "./assets/cowboy-bebop.jpeg",
         "title": "Cowboy Bebop"
+    },
+    {
+        "thumbnail": "./assets/dawn-of-the-dead.jpg",
+        "title": "Dawn of the Dead"
     },
     {
         "thumbnail": "./assets/death-note.jpg",
@@ -12,15 +60,127 @@
         "title": "Death Parade"
     },
     {
+        "thumbnail": "./assets/drive.jpeg",
+        "title": "Drive"
+    },
+    {
+        "thumbnail": "./assets/edge-of-tomorrow.jpeg",
+        "title": "Edge of Tomorrow"
+    },
+    {
+        "thumbnail": "./assets/enola-holmes.jpeg",
+        "title": "Enola Holmes"
+    },
+    {
+        "thumbnail": "./assets/every-day.jpeg",
+        "title": "Every Day"
+    },
+    {
+        "thumbnail": "./assets/exists.jpeg",
+        "title": "Exists"
+    },
+    {
+        "thumbnail": "./assets/fight-club.jpg",
+        "title": "Fight Club"
+    },
+    {
+        "thumbnail": "./assets/godzilla-minus-one.jpg",
+        "title": "Godzilla Minus One"
+    },
+    {
         "thumbnail": "./assets/gurren-lagann.jpg",
         "title": "Gurren Lagann"
+    },
+    {
+        "thumbnail": "./assets/inception.jpg",
+        "title": "Inception"
+    },
+    {
+        "thumbnail": "./assets/interstellar.jpg",
+        "title": "Interstellar"
     },
     {
         "thumbnail": "./assets/kurokos-basketball.jpeg",
         "title": "Kuroko's Basketball"
     },
     {
+        "thumbnail": "./assets/now-you-see-me.jpeg",
+        "title": "Now You See Me"
+    },
+    {
+        "thumbnail": "./assets/now-you-see-me-2.jpeg",
+        "title": "Now You See Me 2"
+    },
+    {
+        "thumbnail": "./assets/pulp-fiction.jpeg",
+        "title": "Pulp Fiction"
+    },
+    {
+        "thumbnail": "./assets/sherlock-holmes.jpeg",
+        "title": "Sherlock Holmes"
+    },
+    {
+        "thumbnail": "./assets/sherlock-holmes-a-game-of-shadows.jpeg",
+        "title": "Sherlock Holmes: A Game of Shadows"
+    },
+    {
         "thumbnail": "./assets/shikimoris-not-just-a-cutie.jpeg",
         "title": "Shikimori's Not Just a Cutie"
+    },
+    {
+        "thumbnail": "./assets/shutter-island.jpeg",
+        "title": "Shutter Island"
+    },
+    {
+        "thumbnail": "./assets/ted.jpg",
+        "title": "Ted"
+    },
+    {
+        "thumbnail": "./assets/ted-2.jpg",
+        "title": "Ted 2"
+    },
+    {
+        "thumbnail": "./assets/the-accountant.jpeg",
+        "title": "The Accountant"
+    },
+    {
+        "thumbnail": "./assets/the-detour.jpg",
+        "title": "The Detour"
+    },
+    {
+        "thumbnail": "./assets/the-hangover.jpg",
+        "title": "The Hangover"
+    },
+    {
+        "thumbnail": "./assets/the-hangover-part-2.jpeg",
+        "title": "The Hangover Part II"
+    },
+    {
+        "thumbnail": "./assets/the-hangover-part-3.jpeg",
+        "title": "The Hangover Part III"
+    },
+    {
+        "thumbnail": "./assets/the-interview.jpg",
+        "title": "The Interview"
+    },
+    {
+        "thumbnail": "./assets/the-suicide-squad.jpg",
+        "title": "The Suicide Squad"
+    },
+    {
+        "thumbnail": "./assets/the-wolf-of-wall-street.jpeg",
+        "title": "The Wolf of Wall Street"
+    },
+    {
+        "thumbnail": "./assets/tomorrowland.jpg",
+        "title": "Tomorrowland"
+    },
+    {
+        "thumbnail": "./assets/transcendence.jpeg",
+        "title": "Transcendence"
+    },
+    {
+        "thumbnail": "./assets/zindagi-na-milegi-dobara.jpg",
+        "title": "Zindagi Na Milegi Dobara"
     }
 ]
