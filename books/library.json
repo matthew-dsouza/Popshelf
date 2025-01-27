@@ -1,0 +1,74 @@
+[
+    {
+        "thumbnail": "./assets/atomic-habits.jpg",
+        "title": "Atomic Habits by James Clear"
+    },
+    {
+        "thumbnail": "./assets/clean-code.jpg",
+        "title": "Clean Code by Robert Martin"
+    },
+    {
+        "thumbnail": "./assets/cracking-the-coding-interview.jpg",
+        "title": "Cracking The Coding Interview by Gayle Laakmann McDowell"
+    },
+    {
+        "thumbnail": "./assets/how-to-avoid-loss-and-earn-consistently-in-the-stock-market.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/indistractable.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/learn-to-earn.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/the-48-laws-of-power.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/the-intelligent-investor.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/the-pragmatic-programmer.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/the-psychology-of-money.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/the-way-of-the-superior-man.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/think-again.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/to-sell-is-human.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/ultralearning.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/who-moved-my-cheese.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/why-women-deserve-less.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/.jpg",
+        "title": ""
+    },
+    {
+        "thumbnail": "./assets/the-way-of-the-superior-man.jpg",
+        "title": "The Way of the Superior Man by David Deida"
+    }
+]
